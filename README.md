@@ -1,3 +1,9 @@
+# ‼️I (ShadesByte) will be using this as a personal project to learn coding. ‼️
+
+## Initially I only plan to update the database of this app for continuing functionality. One day I'll develop my own core logic and app (hopefully).
+
+## Below is the reminants of boxofzero's project:
+
 # [⛔ This project is NO LONGER UPDATED ⛔](https://github.com/boxofzero/cassowary/issues/36)
 
 # Cassowary
