@@ -191,6 +191,38 @@ export const forgery_proper_data = [
 		to: undefined,
 		count: undefined,
 	},
+	{
+		general_name: 'carved_crystal',
+		name: 'lf_carved_crystal',
+		tier: 1,
+		from: undefined,
+		to: 'mf_carved_crystal',
+		count: 3,
+	},
+	{
+		general_name: 'carved_crystal',
+		name: 'mf_carved_crystal',
+		tier: 2,
+		from: 'lf_carved_crystal',
+		to: 'hf_carved_crystal',
+		count: 3,
+	},
+	{
+		general_name: 'carved_crystal',
+		name: 'hf_carved_crystal',
+		tier: 3,
+		from: 'mf_carved_crystal',
+		to: 'ff_carved_crystal',
+		count: 3,
+	},
+	{
+		general_name: 'carved_crystal',
+		name: 'ff_carved_crystal',
+		tier: 4,
+		from: 'hf_carved_crystal',
+		to: undefined,
+		count: undefined,
+	},
 ];
 
 export const tiered_forgery_weapon_skill_material_index_category = Object.keys(

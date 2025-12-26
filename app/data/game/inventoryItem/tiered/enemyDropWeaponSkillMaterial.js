@@ -226,6 +226,39 @@ export const enemy_drop_proper_data = [
 		to: undefined,
 		count: undefined,
 	},
+
+	{
+		general_name: 'mech_core',
+		name: 'lf_mech_core',
+		tier: 1,
+		from: undefined,
+		to: 'mf_mech_core',
+		count: 3,
+	},
+	{
+		general_name: 'mech_core',
+		name: 'mf_mech_core',
+		tier: 2,
+		from: 'lf_mech_core',
+		to: 'hf_mech_core',
+		count: 3,
+	},
+	{
+		general_name: 'mech_core',
+		name: 'hf_mech_core',
+		tier: 3,
+		from: 'mf_mech_core',
+		to: 'ff_mech_core',
+		count: 3,
+	},
+	{
+		general_name: 'mech_core',
+		name: 'ff_mech_core',
+		tier: 4,
+		from: 'hf_mech_core',
+		to: undefined,
+		count: undefined,
+	},
 ];
 
 export const tiered_enemy_drop_weapon_skill_material_index_category =
