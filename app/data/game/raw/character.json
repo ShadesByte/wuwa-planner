@@ -1015,7 +1015,7 @@
     "game_id": 1509,
     "display_name": "Lynae",
     "weapon": "pistols",
-    "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/characters/IconRoleHead256/T_IconRoleHead256_41_UI.png",
+    "icon": "https://raw.githubusercontent.com/ryanbenson/wuthering-waves-assets/refs/heads/master/images/Lynae.png",
     "rarity": 5,
     "tiered_enemy_drop_weapon_skill_material": "exoswarm_core",
     "boss_ascension_material": "suncoveters_reach",
