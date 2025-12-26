@@ -193,6 +193,39 @@ export const enemy_drop_proper_data = [
 		to: undefined,
 		count: undefined,
 	},
+
+	{
+		general_name: 'exoswarm_core',
+		name: 'lf_exoswarm_core',
+		tier: 1,
+		from: undefined,
+		to: 'mf_exoswarm_core',
+		count: 3,
+	},
+	{
+		general_name: 'exoswarm_core',
+		name: 'mf_exoswarm_core',
+		tier: 2,
+		from: 'lf_exoswarm_core',
+		to: 'hf_exoswarm_core',
+		count: 3,
+	},
+	{
+		general_name: 'exoswarm_core',
+		name: 'hf_exoswarm_core',
+		tier: 3,
+		from: 'mf_exoswarm_core',
+		to: 'ff_exoswarm_core',
+		count: 3,
+	},
+	{
+		general_name: 'exoswarm_core',
+		name: 'ff_exoswarm_core',
+		tier: 4,
+		from: 'hf_exoswarm_core',
+		to: undefined,
+		count: undefined,
+	},
 ];
 
 export const tiered_enemy_drop_weapon_skill_material_index_category =

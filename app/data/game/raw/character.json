@@ -1010,5 +1010,27 @@
       { "stat": "atk", "value": 0.042 },
       { "stat": "crit_rate", "value": 0.028 }
     ]
+  },
+  "lynae": {
+    "game_id": 1509,
+    "display_name": "Lynae",
+    "weapon": "pistols",
+    "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/characters/IconRoleHead256/T_IconRoleHead256_41_UI.png",
+    "rarity": 5,
+    "tiered_enemy_drop_weapon_skill_material": "exoswarm_core",
+    "boss_ascension_material": "suncoveters_reach",
+    "overworld_resource_ascension_material": "rimewisp",
+    "weekly_boss_skill_upgrade_material": "dreamless_feather",
+    "tiered_forgery_weapon_skill_material": "combustor",
+    "bonus_stats": [
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "crit_rate", "value": 0.028 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "crit_rate", "value": 0.028 }
+    ]
   }
 }

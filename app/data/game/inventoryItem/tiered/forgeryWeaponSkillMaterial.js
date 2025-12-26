@@ -159,6 +159,38 @@ export const forgery_proper_data = [
 		to: undefined,
 		count: undefined,
 	},
+	{
+		general_name: 'combustor',
+		name: 'incomplete_combustor',
+		tier: 1,
+		from: undefined,
+		to: 'aftertune_combustor',
+		count: 3,
+	},
+	{
+		general_name: 'combustor',
+		name: 'aftertune_combustor',
+		tier: 2,
+		from: 'incomplete_combustor',
+		to: 'remnant_combustor',
+		count: 3,
+	},
+	{
+		general_name: 'combustor',
+		name: 'remnant_combustor',
+		tier: 3,
+		from: 'aftertune_combustor',
+		to: 'reverb_combustor',
+		count: 3,
+	},
+	{
+		general_name: 'combustor',
+		name: 'reverb_combustor',
+		tier: 4,
+		from: 'remnant_combustor',
+		to: undefined,
+		count: undefined,
+	},
 ];
 
 export const tiered_forgery_weapon_skill_material_index_category = Object.keys(
