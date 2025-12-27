@@ -721,7 +721,7 @@
       "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_008_4_UI.webp",
       "label": "FF Waveworn Shard"
     },
-    "spliced-string": {
+    "spliced_string": {
       "game_id": 43021031,
       "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconMout/T_IconMout_O_012_1_UI.webp",
       "label": "Spliced String"

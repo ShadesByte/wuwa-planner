@@ -844,5 +844,59 @@
     "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon_21010045_UI.webp",
     "tiered_enemy_drop_weapon_skill_material": "exoswarm_pendant",
     "tiered_forgery_weapon_skill_material": "carved_crystal"
+  },
+  "starfield_calibrator": {
+    "game_id": 21010066,
+    "display_name": "Starfield Calibrator",
+    "rarity": 5,
+    "weapon_type": "broadblade",
+    "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21010066_UI.webp",
+    "tiered_enemy_drop_weapon_skill_material": "exoswarm_pendant",
+    "tiered_forgery_weapon_skill_material": "carved_crystal"
+  },
+  "laser_shearer": {
+    "game_id": 21020045,
+    "display_name": "Laser Shearer",
+    "rarity": 5,
+    "weapon_type": "sword",
+    "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon_21020045_UI.webp",
+    "tiered_enemy_drop_weapon_skill_material": "mech_core",
+    "tiered_forgery_weapon_skill_material": "polarizer"
+  },
+  "phasic_homogenizer": {
+    "game_id": 21030045,
+    "display_name": "Phasic Homogenizer",
+    "rarity": 5,
+    "weapon_type": "pistols",
+    "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon_21030045_UI.webp",
+    "tiered_enemy_drop_weapon_skill_material": "exoswarm_pendant",
+    "tiered_forgery_weapon_skill_material": "combustor"
+  },
+  "spectrum_blaster": {
+    "game_id": 21030046,
+    "display_name": "Spectrum Blaster",
+    "rarity": 5,
+    "weapon_type": "pistols",
+    "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21030046_UI.webp",
+    "tiered_enemy_drop_weapon_skill_material": "exoswarm_pendant",
+    "tiered_forgery_weapon_skill_material": "combustor"
+  },
+  "pulsation_bracer": {
+    "game_id": 21040045,
+    "display_name": "Pulsation Bracer",
+    "rarity": 5,
+    "weapon_type": "gauntlets",
+    "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon_21040045_UI.webp",
+    "tiered_enemy_drop_weapon_skill_material": "mech_core",
+    "tiered_forgery_weapon_skill_material": "waveworn_shard"
+  },
+  "boson_astrolabe": {
+    "game_id": 21050045,
+    "display_name": "Boson Astrolabe",
+    "rarity": 5,
+    "weapon_type": "rectifier",
+    "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon_21050045_UI.webp",
+    "tiered_enemy_drop_weapon_skill_material": "exoswarm_core",
+    "tiered_forgery_weapon_skill_material": "string"
   }
 }
