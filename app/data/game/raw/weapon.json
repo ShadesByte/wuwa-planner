@@ -835,5 +835,14 @@
     "icon": "https://raw.githubusercontent.com/boxofzero/ww-assets/refs/heads/main/images/weapons/IconWeapon/T_IconWeapon21050104_UI.png",
     "tiered_enemy_drop_weapon_skill_material": "ring",
     "tiered_forgery_weapon_skill_material": "helix"
+  },
+  "radiance_cleaver": {
+    "game_id": 21010045,
+    "display_name": "Radiance Cleaver",
+    "rarity": 5,
+    "weapon_type": "broadblade",
+    "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon_21010045_UI.webp",
+    "tiered_enemy_drop_weapon_skill_material": "exoswarm_pendant",
+    "tiered_forgery_weapon_skill_material": "carved_crystal"
   }
 }

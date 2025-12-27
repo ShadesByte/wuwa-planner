@@ -281,7 +281,7 @@ export const enemy_drop_proper_data = [
 		name: 'chipped_exoswarm_pendant',
 		tier: 3,
 		from: 'worn_exoswarm_pendant',
-		to: 'ff_mech_core',
+		to: 'intact_exoswarm_pendant',
 		count: 3,
 	},
 	{
