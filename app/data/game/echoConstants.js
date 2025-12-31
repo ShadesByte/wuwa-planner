@@ -1,3 +1,7 @@
+// The game version this configuration was last verified against
+export const GAME_DATA_VERSION = '3.0';
+
+// A list of all Echo sets available in the game
 export const ECHO_SETS = Object.freeze({
   FREEZING_FROST: 'freezing_frost',
   MOLTEN_RIFT: 'molten_rift',
@@ -26,6 +30,7 @@ export const ECHO_SETS = Object.freeze({
   RITE_OF_GILDED_REVELATION: 'rite_of_gilded_revelation',
 });
 
+// A list of all main stats available for Echoes
 export const ECHO_MAIN_STATS = Object.freeze({
     HP_PERCENT: 'hp%',
     ATK_PERCENT: 'atk%',
@@ -42,6 +47,7 @@ export const ECHO_MAIN_STATS = Object.freeze({
     ENERGY_REGEN: 'energy_regen',
 });
 
+// A list of all sub stats available for Echoes
 export const ECHO_SUB_STATS = Object.freeze({
     HP: 'hp',
     ATK: 'atk',
@@ -58,12 +64,14 @@ export const ECHO_SUB_STATS = Object.freeze({
     RESONANCE_LIBERATION_DMG_BONUS: 'resonance_liberation_dmg_bonus',
 });
 
+// Echo cost tiers
 export const ECHO_COSTS = Object.freeze({
     COST_4: 'cost_4',
     COST_3: 'cost_3',
     COST_1: 'cost_1',
 });
 
+// Valid main stats for each Echo cost
 export const VALID_MAIN_STATS = Object.freeze({
     [ECHO_COSTS.COST_4]: [
         ECHO_MAIN_STATS.HP_PERCENT,
