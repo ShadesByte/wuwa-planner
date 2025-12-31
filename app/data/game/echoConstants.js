@@ -25,3 +25,35 @@ export const ECHO_SETS = Object.freeze({
   PACT_OF_NEONLIGHT_LEAP: 'pact_of_neonlight_leap',
   RITE_OF_GILDED_REVELATION: 'rite_of_gilded_revelation',
 });
+
+export const ECHO_MAIN_STATS = Object.freeze({
+    HP_PERCENT: 'hp%',
+    ATK_PERCENT: 'atk%',
+    DEF_PERCENT: 'def%',
+    CRIT_RATE: 'crit_rate',
+    CRIT_DMG: 'crit_dmg',
+    HEALING_BONUS: 'healing_bonus',
+    GLACIO_DMG_BONUS: 'glacio_dmg_bonus',
+    FUSION_DMG_BONUS: 'fusion_dmg_bonus',
+    ELECTRO_DMG_BONUS: 'electro_dmg_bonus',
+    AERO_DMG_BONUS: 'aero_dmg_bonus',
+    SPECTRO_DMG_BONUS: 'spectro_dmg_bonus',
+    HAVOC_DMG_BONUS: 'havoc_dmg_bonus',
+    ENERGY_REGEN: 'energy_regen',
+});
+
+export const ECHO_SUB_STATS = Object.freeze({
+    HP: 'hp',
+    ATK: 'atk',
+    DEF: 'def',
+    HP_PERCENT: 'hp%',
+    ATK_PERCENT: 'atk%',
+    DEF_PERCENT: 'def%',
+    CRIT_RATE: 'crit_rate',
+    CRIT_DMG: 'crit_dmg',
+    ENERGY_REGEN: 'energy_regen',
+    BASIC_ATTACK_DMG_BONUS: 'basic_attack_dmg_bonus',
+    HEAVY_ATTACK_DMG_BONUS: 'heavy_attack_dmg_bonus',
+    RESONANCE_SKILL_DMG_BONUS: 'resonance_skill_dmg_bonus',
+    RESONANCE_LIBERATION_DMG_BONUS: 'resonance_liberation_dmg_bonus',
+});
