@@ -57,3 +57,9 @@ export const ECHO_SUB_STATS = Object.freeze({
     RESONANCE_SKILL_DMG_BONUS: 'resonance_skill_dmg_bonus',
     RESONANCE_LIBERATION_DMG_BONUS: 'resonance_liberation_dmg_bonus',
 });
+
+export const ECHO_COSTS = Object.freeze({
+    COST_4: 'cost_4',
+    COST_3: 'cost_3',
+    COST_1: 'cost_1',
+});
