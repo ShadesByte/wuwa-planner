@@ -346,6 +346,9 @@ export const tieredPassiveSkills = {
 	],
 };
 
+// Import new constants
+import { CHARACTER_IDS } from '@/data/game/constants/characterIDs';
+
 import gameCharacterRawData from '@/data/game/raw/character.json';
 
 export const characters = gameCharacterRawData;
@@ -354,9 +357,19 @@ export function charLevellingMaterialsCount(characterName = '') {
 	// here is characters that have custom modifiers
 
 	// ROVER
+
+	const isRover = [
+		CHARACTER_IDS.ROVER_AERO_MALE,
+		CHARACTER_IDS.ROVER_AERO_FEMALE,
+		CHARACTER_IDS.ROVER_HAVOC_MALE,
+		CHARACTER_IDS.ROVER_HAVOC_FEMALE,
+		CHARACTER_IDS.ROVER_SPECTRO_MALE,
+		CHARACTER_IDS.ROVER_SPECTRO_FEMALE,
+	].includes(characterName);
+	
+	// Fallback: keep the startsWith check for backward compatibility, but rely on the IDs primarily
 	if (
-		typeof characterName === 'string' &&
-		characterName.toLowerCase().startsWith('rover')
+		isRover || (typeof characterName === 'string' && characterName.toLowerCase().startsWith('rover'))
 	) {
 		// deep copy the data. smh.
 		let data = JSON.parse(JSON.stringify(baseCharLevellingMaterialsCount));
