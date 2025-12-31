@@ -41,7 +41,7 @@ export const CHARACTER_IDS = Object.freeze({
   SANHUA: 'sanhua',
   SIGRIKA: 'sigrika',
   TAOQI: 'taoqi',
-  THE_SHOREKEEPER: 'the_shorekeeper',
+  THE_SHOREKEEPER: 'shorekeeper',
   VERINA: 'verina',
   XIANGLI_YAO: 'xiangli_yao',
   YANGYANG: 'yangyang',
