@@ -1,3 +1,5 @@
+export const WEAPON_ID_VERSION = '3.0'
+
 export const WEAPON_IDS = Object.freeze({
     ABYSS_SURGES: 'abyss_surges',
     AGES_OF_HARVEST: 'ages_of_harvest',

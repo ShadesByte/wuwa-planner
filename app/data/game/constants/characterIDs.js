@@ -1,3 +1,5 @@
+export const CHARACTER_ID_VERSION = '3.0'
+
 export const CHARACTER_IDS = Object.freeze({
   AALTO: 'aalto',
   AUGUSTA: 'augusta',
