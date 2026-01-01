@@ -2,7 +2,7 @@ export const ITEM_FAMILIES_VERSION = '3.0'
 
 export const ITEM_FAMILIES = Object.freeze({
 
-    // Enemy Drop Weapon Skill Materials
+    // weapon and skill materials (enemy drops)
     EXOSWARM_CORE: 'exoswarm_core',
     EXOSWARM_PENDANT: 'exoswarm_pendant',
     HOWLER_CORE: 'howler_core',
@@ -13,7 +13,7 @@ export const ITEM_FAMILIES = Object.freeze({
     TIDAL_RESIDUUM: 'tidal_residuum',
     WHISPERIN_CORE: 'whisperin_core',
 
-    // Forgery Weapon Skill Materials
+    // weapon and skill materials (forgery)
     CADENCE: 'cadence',
     CARVED_CRYSTAL: 'carved_crystal',
     COMBUSTOR: 'combustor',
@@ -24,4 +24,8 @@ export const ITEM_FAMILIES = Object.freeze({
     STRING: 'string',
     WAVEWORN_RESIDUE: 'waveworn_residue',
     WAVEWORN_SHARD: 'waveworn_shard',
+
+    // exp materials
+    RESONANCE_POTION: 'resonance_potion',
+    ENERGY_CORE: 'energy_core',
 });
