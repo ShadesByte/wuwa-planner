@@ -137,5 +137,32 @@ export const ITEM_IDS = Object.freeze({
     SENTINELS_DAGGER: 'sentinels_dagger',
     THE_NETHERWORLDS_STARE: 'the_netherworlds_stare',
     WHEN_IRISES_BLOOM: 'when_irises_bloom',
-    CURSE_OF_THE_ABYSS: 'curse_of_the_abyss'
+    CURSE_OF_THE_ABYSS: 'curse_of_the_abyss',
+
+    // ascension materials
+    IRIS: 'iris',
+    TERRASPAWN_FUNGUS: 'terraspawn_fungus',
+    LANTERNBERRY: 'lanternberry',
+    PECOK_FLOWER: 'pecok_flower',
+    BELLE_POPPY: 'belle_poppy',
+    CORIOLUS: 'coriolus',
+    WINTRY_BELL: 'wintry_bell',
+    VIOLET_CORAL: 'violet_coral',
+    PAVO_PLUM: 'pavo_plum',
+    LOONGS_PEARL: 'loongs_pearl',
+    NOVA: 'nova',
+    GOLDEN_FLEECE: 'golden_fleece',
+    SWORD_ACORUS: 'sword_acorus',
+    FIRECRACKER_JEWELWEED: 'firecracker_jewelweed',
+    SEASIDE_CENDRELIS: 'seaside_cendrelis',
+    BAMBOO_IRIS: 'bamboo_iris',
+    BLOODLEAF_VIBURNUM: 'bloodleaf_viburnum',
+    AFTERLIFE: 'afterlife',
+    STONE_ROSE: 'stone_rose',
+    SLIVERGLOW_BLOOM: 'sliverglow_bloom',
+    LUMINOUS_CALENDULA: 'luminous_calendula',
+    SUMMER_FLOWER: 'summer_flower',
+    RIMEWISP: 'rimewisp',
+    GEMINI_SPORE: 'gemini_spore',
+    ARITHMETIC_SHELL: 'arithmetic_shell'
 });
