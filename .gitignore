@@ -26,3 +26,4 @@ logs
 *.code-workspace
 
 coverage/
+.vscode/settings.json
