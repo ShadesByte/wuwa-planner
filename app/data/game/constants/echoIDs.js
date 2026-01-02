@@ -1,5 +1,5 @@
 // The game version this configuration was last verified against
-export const GAME_DATA_VERSION = '3.0';
+export const ECHO_ID_VERSION = '3.0';
 
 // A list of all Echo sets available in the game
 export const ECHO_SETS = Object.freeze({
