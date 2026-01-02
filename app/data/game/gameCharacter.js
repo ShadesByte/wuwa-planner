@@ -1,76 +1,81 @@
+import { ITEM_FAMILIES } from "@/data/game/constants/itemFamilies";
+import { ITEM_IDS } from "@/data/game/constants/itemIDs";
+
+const CHAR_EXP = 'char_exp';
+
 let baseCharLevellingMaterialsCount = [
 	{ level: '1', materials: {} },
-	{ level: '20', materials: { char_exp: 33300, shell_credit: 11655 } },
+	{ level: '20', materials: { [CHAR_EXP]: 33300, [ITEM_IDS.SHELL_CREDIT]: 11655 } },
 	{
 		level: '20A',
 		materials: {
-			tiered_enemy_drop_weapon_skill_material: {
+			[MATERIAL_CATEGORIES.ENEMY_DROP]: {
 				1: 4,
 			},
-			shell_credit: 5000,
+			[ITEM_IDS.SHELL_CREDIT]: 5000,
 		},
 	},
-	{ level: '40', materials: { char_exp: 175500, shell_credit: 61425 } },
+	{ level: '40', materials: { [CHAR_EXP]: 175500, [ITEM_IDS.SHELL_CREDIT]: 61425 } },
 	{
 		level: '40A',
 		materials: {
-			boss_ascension_material: 3,
-			overworld_resource_ascension_material: 4,
-			tiered_enemy_drop_weapon_skill_material: {
+			[MATERIAL_CATEGORIES.ASCENSION]: 3,
+			[MATERIAL_CATEGORIES.OVERWORLD]: 4,
+			[MATERIAL_CATEGORIES.ENEMY_DROP]: {
 				2: 4,
 			},
-			shell_credit: 10000,
+			[ITEM_IDS.SHELL_CREDIT]: 10000,
 		},
 	},
-	{ level: '50', materials: { char_exp: 188300, shell_credit: 65905 } },
+	{ level: '50', materials: { [CHAR_EXP]: 188300, [ITEM_IDS.SHELL_CREDIT]: 65905 } },
 	{
 		level: '50A',
 		materials: {
-			boss_ascension_material: 6,
-			overworld_resource_ascension_material: 8,
-			tiered_enemy_drop_weapon_skill_material: {
+			[MATERIAL_CATEGORIES.ASCENSION]: 6,
+			[MATERIAL_CATEGORIES.OVERWORLD]: 8,
+			[MATERIAL_CATEGORIES.ENEMY_DROP]: {
 				2: 8,
 			},
-			shell_credit: 15000,
+			[ITEM_IDS.SHELL_CREDIT]: 15000,
 		},
 	},
-	{ level: '60', materials: { char_exp: 286600, shell_credit: 100310 } },
+	{ level: '60', materials: { [CHAR_EXP]: 286600, [ITEM_IDS.SHELL_CREDIT]: 100310 } },
 	{
 		level: '60A',
 		materials: {
-			boss_ascension_material: 9,
-			overworld_resource_ascension_material: 12,
-			tiered_enemy_drop_weapon_skill_material: {
+			[MATERIAL_CATEGORIES.ASCENSION]: 9,
+			[MATERIAL_CATEGORIES.OVERWORLD]: 12,
+			[MATERIAL_CATEGORIES.ENEMY_DROP]: {
 				3: 4,
 			},
-			shell_credit: 20000,
+			[ITEM_IDS.SHELL_CREDIT]: 20000,
 		},
 	},
-	{ level: '70', materials: { char_exp: 413000, shell_credit: 144550 } },
+	{ level: '70', materials: { [CHAR_EXP]: 413000, [ITEM_IDS.SHELL_CREDIT]: 144550 } },
 	{
 		level: '70A',
 		materials: {
-			boss_ascension_material: 12,
-			overworld_resource_ascension_material: 16,
-			tiered_enemy_drop_weapon_skill_material: {
+			[MATERIAL_CATEGORIES.ASCENSION]: 12,
+			[MATERIAL_CATEGORIES.OVERWORLD]: 16,
+			[MATERIAL_CATEGORIES.ENEMY_DROP]: {
 				3: 8,
 			},
-			shell_credit: 40000,
+			[ITEM_IDS.SHELL_CREDIT]: 40000,
 		},
 	},
-	{ level: '80', materials: { char_exp: 572400, shell_credit: 200340 } },
+	{ level: '80', materials: { [CHAR_EXP]: 572400, [ITEM_IDS.SHELL_CREDIT]: 200340 } },
 	{
 		level: '80A',
 		materials: {
-			boss_ascension_material: 16,
-			overworld_resource_ascension_material: 20,
-			tiered_enemy_drop_weapon_skill_material: {
+			[MATERIAL_CATEGORIES.ASCENSION]: 16,
+			[MATERIAL_CATEGORIES.OVERWORLD]: 20,
+			[MATERIAL_CATEGORIES.ENEMY_DROP]: {
 				4: 4,
 			},
-			shell_credit: 80000,
+			[ITEM_IDS.SHELL_CREDIT]: 80000,
 		},
 	},
-	{ level: '90', materials: { char_exp: 768900, shell_credit: 269115 } },
+	{ level: '90', materials: { [CHAR_EXP]: 768900, [ITEM_IDS.SHELL_CREDIT]: 269115 } },
 ];
 
 export const activeSkillLevellingMaterialsCount = [
@@ -78,11 +83,11 @@ export const activeSkillLevellingMaterialsCount = [
 	{
 		level: 2,
 		materials: {
-			shell_credit: 1500,
-			tiered_enemy_drop_weapon_skill_material: {
+			[ITEM_IDS.SHELL_CREDIT]: 1500,
+			[MATERIAL_CATEGORIES.ENEMY_DROP]: {
 				1: 2,
 			},
-			tiered_forgery_weapon_skill_material: {
+			[MATERIAL_CATEGORIES.FORGERY]: {
 				1: 2,
 			},
 		},
@@ -90,11 +95,11 @@ export const activeSkillLevellingMaterialsCount = [
 	{
 		level: 3,
 		materials: {
-			shell_credit: 2000,
-			tiered_enemy_drop_weapon_skill_material: {
+			[ITEM_IDS.SHELL_CREDIT]: 2000,
+			[MATERIAL_CATEGORIES.ENEMY_DROP]: {
 				1: 3,
 			},
-			tiered_forgery_weapon_skill_material: {
+			[MATERIAL_CATEGORIES.FORGERY]: {
 				1: 3,
 			},
 		},
@@ -102,11 +107,11 @@ export const activeSkillLevellingMaterialsCount = [
 	{
 		level: 4,
 		materials: {
-			shell_credit: 4500,
-			tiered_enemy_drop_weapon_skill_material: {
+			[ITEM_IDS.SHELL_CREDIT]: 4500,
+			[MATERIAL_CATEGORIES.ENEMY_DROP]: {
 				2: 2,
 			},
-			tiered_forgery_weapon_skill_material: {
+			[MATERIAL_CATEGORIES.FORGERY]: {
 				2: 2,
 			},
 		},
@@ -114,11 +119,11 @@ export const activeSkillLevellingMaterialsCount = [
 	{
 		level: 5,
 		materials: {
-			shell_credit: 6000,
-			tiered_enemy_drop_weapon_skill_material: {
+			[ITEM_IDS.SHELL_CREDIT]: 6000,
+			[MATERIAL_CATEGORIES.ENEMY_DROP]: {
 				2: 3,
 			},
-			tiered_forgery_weapon_skill_material: {
+			[MATERIAL_CATEGORIES.FORGERY]: {
 				2: 3,
 			},
 		},
@@ -126,11 +131,11 @@ export const activeSkillLevellingMaterialsCount = [
 	{
 		level: 6,
 		materials: {
-			shell_credit: 16000,
-			tiered_enemy_drop_weapon_skill_material: {
+			[ITEM_IDS.SHELL_CREDIT]: 16000,
+			[MATERIAL_CATEGORIES.ENEMY_DROP]: {
 				3: 2,
 			},
-			tiered_forgery_weapon_skill_material: {
+			[MATERIAL_CATEGORIES.FORGERY]: {
 				3: 3,
 			},
 		},
@@ -138,53 +143,53 @@ export const activeSkillLevellingMaterialsCount = [
 	{
 		level: 7,
 		materials: {
-			shell_credit: 30000,
-			tiered_enemy_drop_weapon_skill_material: {
+			[ITEM_IDS.SHELL_CREDIT]: 30000,
+			[MATERIAL_CATEGORIES.ENEMY_DROP]: {
 				3: 3,
 			},
-			tiered_forgery_weapon_skill_material: {
+			[MATERIAL_CATEGORIES.FORGERY]: {
 				3: 5,
 			},
-			weekly_boss_skill_upgrade_material: 1,
+			[MATERIAL_CATEGORIES.WEEKLY_BOSS]: 1,
 		},
 	},
 	{
 		level: 8,
 		materials: {
-			shell_credit: 50000,
-			tiered_enemy_drop_weapon_skill_material: {
+			[ITEM_IDS.SHELL_CREDIT]: 50000,
+			[MATERIAL_CATEGORIES.ENEMY_DROP]: {
 				4: 2,
 			},
-			tiered_forgery_weapon_skill_material: {
+			[MATERIAL_CATEGORIES.FORGERY]: {
 				4: 2,
 			},
-			weekly_boss_skill_upgrade_material: 1,
+			[MATERIAL_CATEGORIES.WEEKLY_BOSS]: 1,
 		},
 	},
 	{
 		level: 9,
 		materials: {
-			shell_credit: 70000,
-			tiered_enemy_drop_weapon_skill_material: {
+			[ITEM_IDS.SHELL_CREDIT]: 70000,
+			[MATERIAL_CATEGORIES.ENEMY_DROP]: {
 				4: 3,
 			},
-			tiered_forgery_weapon_skill_material: {
+			[MATERIAL_CATEGORIES.FORGERY]: {
 				4: 3,
 			},
-			weekly_boss_skill_upgrade_material: 1,
+			[MATERIAL_CATEGORIES.WEEKLY_BOSS]: 1,
 		},
 	},
 	{
 		level: 10,
 		materials: {
-			shell_credit: 100000,
-			tiered_enemy_drop_weapon_skill_material: {
+			[ITEM_IDS.SHELL_CREDIT]: 100000,
+			[MATERIAL_CATEGORIES.ENEMY_DROP]: {
 				4: 4,
 			},
-			tiered_forgery_weapon_skill_material: {
+			[MATERIAL_CATEGORIES.FORGERY]: {
 				4: 6,
 			},
-			weekly_boss_skill_upgrade_material: 1,
+			[MATERIAL_CATEGORIES.WEEKLY_BOSS]: 1,
 		},
 	},
 ];
@@ -192,118 +197,118 @@ export const activeSkillLevellingMaterialsCount = [
 export const passiveSkillLevellingMaterialsCount = {
 	passive_skill_1: {
 		materials: {
-			shell_credit: 10000,
-			tiered_enemy_drop_weapon_skill_material: {
+			[ITEM_IDS.SHELL_CREDIT]: 10000,
+			[MATERIAL_CATEGORIES.ENEMY_DROP]: {
 				2: 3,
 			},
-			tiered_forgery_weapon_skill_material: {
+			[MATERIAL_CATEGORIES.FORGERY]: {
 				2: 3,
 			},
-			weekly_boss_skill_upgrade_material: 1,
+			[MATERIAL_CATEGORIES.WEEKLY_BOSS]: 1,
 		},
 	},
 	passive_skill_2: {
 		materials: {
-			shell_credit: 20000,
-			tiered_enemy_drop_weapon_skill_material: {
+			[ITEM_IDS.SHELL_CREDIT]: 20000,
+			[MATERIAL_CATEGORIES.ENEMY_DROP]: {
 				3: 3,
 			},
-			tiered_forgery_weapon_skill_material: {
+			[MATERIAL_CATEGORIES.FORGERY]: {
 				3: 3,
 			},
-			weekly_boss_skill_upgrade_material: 1,
+			[MATERIAL_CATEGORIES.WEEKLY_BOSS]: 1,
 		},
 	},
 	bonus_stat_tier_1_stat_1: {
 		materials: {
-			shell_credit: 50000,
-			tiered_enemy_drop_weapon_skill_material: {
+			[ITEM_IDS.SHELL_CREDIT]: 50000,
+			[MATERIAL_CATEGORIES.ENEMY_DROP]: {
 				3: 3,
 			},
-			tiered_forgery_weapon_skill_material: {
+			[MATERIAL_CATEGORIES.FORGERY]: {
 				3: 3,
 			},
 		},
 	},
 	bonus_stat_tier_1_stat_2: {
 		materials: {
-			shell_credit: 50000,
-			tiered_enemy_drop_weapon_skill_material: {
+			[ITEM_IDS.SHELL_CREDIT]: 50000,
+			[MATERIAL_CATEGORIES.ENEMY_DROP]: {
 				3: 3,
 			},
-			tiered_forgery_weapon_skill_material: {
+			[MATERIAL_CATEGORIES.FORGERY]: {
 				3: 3,
 			},
 		},
 	},
 	bonus_stat_tier_1_stat_3: {
 		materials: {
-			shell_credit: 50000,
-			tiered_enemy_drop_weapon_skill_material: {
+			[ITEM_IDS.SHELL_CREDIT]: 50000,
+			[MATERIAL_CATEGORIES.ENEMY_DROP]: {
 				3: 3,
 			},
-			tiered_forgery_weapon_skill_material: {
+			[MATERIAL_CATEGORIES.FORGERY]: {
 				3: 3,
 			},
 		},
 	},
 	bonus_stat_tier_1_stat_4: {
 		materials: {
-			shell_credit: 50000,
-			tiered_enemy_drop_weapon_skill_material: {
+			[ITEM_IDS.SHELL_CREDIT]: 50000,
+			[MATERIAL_CATEGORIES.ENEMY_DROP]: {
 				3: 3,
 			},
-			tiered_forgery_weapon_skill_material: {
+			[MATERIAL_CATEGORIES.FORGERY]: {
 				3: 3,
 			},
 		},
 	},
 	bonus_stat_tier_2_stat_1: {
 		materials: {
-			shell_credit: 100000,
-			tiered_enemy_drop_weapon_skill_material: {
+			[ITEM_IDS.SHELL_CREDIT]: 100000,
+			[MATERIAL_CATEGORIES.ENEMY_DROP]: {
 				4: 3,
 			},
-			tiered_forgery_weapon_skill_material: {
+			[MATERIAL_CATEGORIES.FORGERY]: {
 				4: 3,
 			},
-			weekly_boss_skill_upgrade_material: 1,
+			[MATERIAL_CATEGORIES.WEEKLY_BOSS]: 1,
 		},
 	},
 	bonus_stat_tier_2_stat_2: {
 		materials: {
-			shell_credit: 100000,
-			tiered_enemy_drop_weapon_skill_material: {
+			[ITEM_IDS.SHELL_CREDIT]: 100000,
+			[MATERIAL_CATEGORIES.ENEMY_DROP]: {
 				4: 3,
 			},
-			tiered_forgery_weapon_skill_material: {
+			[MATERIAL_CATEGORIES.FORGERY]: {
 				4: 3,
 			},
-			weekly_boss_skill_upgrade_material: 1,
+			[MATERIAL_CATEGORIES.WEEKLY_BOSS]: 1,
 		},
 	},
 	bonus_stat_tier_2_stat_3: {
 		materials: {
-			shell_credit: 100000,
-			tiered_enemy_drop_weapon_skill_material: {
+			[ITEM_IDS.SHELL_CREDIT]: 100000,
+			[MATERIAL_CATEGORIES.ENEMY_DROP]: {
 				4: 3,
 			},
-			tiered_forgery_weapon_skill_material: {
+			[MATERIAL_CATEGORIES.FORGERY]: {
 				4: 3,
 			},
-			weekly_boss_skill_upgrade_material: 1,
+			[MATERIAL_CATEGORIES.WEEKLY_BOSS]: 1,
 		},
 	},
 	bonus_stat_tier_2_stat_4: {
 		materials: {
-			shell_credit: 100000,
-			tiered_enemy_drop_weapon_skill_material: {
+			[ITEM_IDS.SHELL_CREDIT]: 100000,
+			[MATERIAL_CATEGORIES.ENEMY_DROP]: {
 				4: 3,
 			},
-			tiered_forgery_weapon_skill_material: {
+			[MATERIAL_CATEGORIES.FORGERY]: {
 				4: 3,
 			},
-			weekly_boss_skill_upgrade_material: 1,
+			[MATERIAL_CATEGORIES.WEEKLY_BOSS]: 1,
 		},
 	},
 };
@@ -350,6 +355,7 @@ export const tieredPassiveSkills = {
 import { CHARACTER_IDS } from '@/data/game/constants/characterIDs';
 
 import gameCharacterRawData from '@/data/game/raw/character.json';
+import { MATERIAL_CATEGORIES } from "./constants/materialCategories";
 
 export const characters = gameCharacterRawData;
 
@@ -373,12 +379,11 @@ export function charLevellingMaterialsCount(characterName = '') {
 	) {
 		// deep copy the data. smh.
 		let data = JSON.parse(JSON.stringify(baseCharLevellingMaterialsCount));
-		data[4]['materials']['boss_ascension_material'] = 1;
-		data[6]['materials']['boss_ascension_material'] = 1;
-		data[8]['materials']['boss_ascension_material'] = 1;
-		data[10]['materials']['boss_ascension_material'] = 1;
-		data[12]['materials']['boss_ascension_material'] = 1;
-
+		data[4]['materials'][MATERIAL_CATEGORIES.ASCENSION] = 1;
+		data[6]['materials'][MATERIAL_CATEGORIES.ASCENSION] = 1;
+		data[8]['materials'][MATERIAL_CATEGORIES.ASCENSION] = 1;
+		data[10]['materials'][MATERIAL_CATEGORIES.ASCENSION] = 1;
+		data[12]['materials'][MATERIAL_CATEGORIES.ASCENSION] = 1;
 		return data;
 	}
 
