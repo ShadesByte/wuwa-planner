@@ -73,6 +73,6 @@ export const tiered_materials_per_type = {
 };
 
 export const exp_data = {
-	weap_exp: weapon_exp_material,
-	char_exp: resonator_exp_material,
+	[ITEM_IDS.Ref_WEAP_EXP]: weapon_exp_material,
+	[ITEM_IDS.Ref_CHAR_EXP]: resonator_exp_material,
 };
