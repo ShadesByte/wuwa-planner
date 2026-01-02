@@ -4,6 +4,7 @@ import * as characterService from '@/services/characterService';
 import * as weaponService from '@/services/weaponService';
 import * as dbInventoryItem from '@/data/database/dbInventoryItem';
 import * as objectHelper from '@/libraries/objectHelper';
+import { ITEM_IDS } from "@/data/game/constants/itemIDs";
 
 const generateExpData = (
 	expNeeded,
@@ -45,7 +46,7 @@ export const getOwnedNeededMaterialsResponseData = (neededMaterials) => {
 	}
 
 	for (let materialType in neededMaterials) {
-		if (['weap_exp', 'char_exp'].includes(materialType)) {
+		if ([ITEM_IDS.Ref_WEAP_EXP, ITEM_IDS.Ref_CHAR_EXP].includes(materialType)) {
 			const exp = generateExpData(
 				neededMaterials[materialType],
 				ownedMaterials,

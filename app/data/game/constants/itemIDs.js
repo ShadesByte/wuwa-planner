@@ -164,5 +164,9 @@ export const ITEM_IDS = Object.freeze({
     SUMMER_FLOWER: 'summer_flower',
     RIMEWISP: 'rimewisp',
     GEMINI_SPORE: 'gemini_spore',
-    ARITHMETIC_SHELL: 'arithmetic_shell'
+    ARITHMETIC_SHELL: 'arithmetic_shell',
+
+    // pseudo items (for logic only)
+    Ref_CHAR_EXP: 'char_exp',
+    Ref_WEAP_EXP: 'weap_exp',
 });

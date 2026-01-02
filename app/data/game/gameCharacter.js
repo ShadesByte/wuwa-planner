@@ -1,11 +1,9 @@
 import { ITEM_IDS } from "@/data/game/constants/itemIDs";
 import { MATERIAL_CATEGORIES } from "@/data/game/constants/materialCategories";
 
-const CHAR_EXP = 'char_exp';
-
 let baseCharLevellingMaterialsCount = [
 	{ level: '1', materials: {} },
-	{ level: '20', materials: { [CHAR_EXP]: 33300, [ITEM_IDS.SHELL_CREDIT]: 11655 } },
+	{ level: '20', materials: { [ITEM_IDS.Ref_CHAR_EXP]: 33300, [ITEM_IDS.SHELL_CREDIT]: 11655 } },
 	{
 		level: '20A',
 		materials: {
@@ -15,7 +13,7 @@ let baseCharLevellingMaterialsCount = [
 			[ITEM_IDS.SHELL_CREDIT]: 5000,
 		},
 	},
-	{ level: '40', materials: { [CHAR_EXP]: 175500, [ITEM_IDS.SHELL_CREDIT]: 61425 } },
+	{ level: '40', materials: { [ITEM_IDS.Ref_CHAR_EXP]: 175500, [ITEM_IDS.SHELL_CREDIT]: 61425 } },
 	{
 		level: '40A',
 		materials: {
@@ -27,7 +25,7 @@ let baseCharLevellingMaterialsCount = [
 			[ITEM_IDS.SHELL_CREDIT]: 10000,
 		},
 	},
-	{ level: '50', materials: { [CHAR_EXP]: 188300, [ITEM_IDS.SHELL_CREDIT]: 65905 } },
+	{ level: '50', materials: { [ITEM_IDS.Ref_CHAR_EXP]: 188300, [ITEM_IDS.SHELL_CREDIT]: 65905 } },
 	{
 		level: '50A',
 		materials: {
@@ -39,7 +37,7 @@ let baseCharLevellingMaterialsCount = [
 			[ITEM_IDS.SHELL_CREDIT]: 15000,
 		},
 	},
-	{ level: '60', materials: { [CHAR_EXP]: 286600, [ITEM_IDS.SHELL_CREDIT]: 100310 } },
+	{ level: '60', materials: { [ITEM_IDS.Ref_CHAR_EXP]: 286600, [ITEM_IDS.SHELL_CREDIT]: 100310 } },
 	{
 		level: '60A',
 		materials: {
@@ -51,7 +49,7 @@ let baseCharLevellingMaterialsCount = [
 			[ITEM_IDS.SHELL_CREDIT]: 20000,
 		},
 	},
-	{ level: '70', materials: { [CHAR_EXP]: 413000, [ITEM_IDS.SHELL_CREDIT]: 144550 } },
+	{ level: '70', materials: { [ITEM_IDS.Ref_CHAR_EXP]: 413000, [ITEM_IDS.SHELL_CREDIT]: 144550 } },
 	{
 		level: '70A',
 		materials: {
@@ -63,7 +61,7 @@ let baseCharLevellingMaterialsCount = [
 			[ITEM_IDS.SHELL_CREDIT]: 40000,
 		},
 	},
-	{ level: '80', materials: { [CHAR_EXP]: 572400, [ITEM_IDS.SHELL_CREDIT]: 200340 } },
+	{ level: '80', materials: { [ITEM_IDS.Ref_CHAR_EXP]: 572400, [ITEM_IDS.SHELL_CREDIT]: 200340 } },
 	{
 		level: '80A',
 		materials: {
@@ -75,7 +73,7 @@ let baseCharLevellingMaterialsCount = [
 			[ITEM_IDS.SHELL_CREDIT]: 80000,
 		},
 	},
-	{ level: '90', materials: { [CHAR_EXP]: 768900, [ITEM_IDS.SHELL_CREDIT]: 269115 } },
+	{ level: '90', materials: { [ITEM_IDS.Ref_CHAR_EXP]: 768900, [ITEM_IDS.SHELL_CREDIT]: 269115 } },
 ];
 
 export const activeSkillLevellingMaterialsCount = [
