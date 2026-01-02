@@ -38,9 +38,9 @@ export const categorizedInventoryItems = {
 	},
 };
 
-var { echo_development_material: a, ...ommitedInventoryItems } =
+var { echo_development_material: _, ...omittedInventoryItems } =
 	categorizedInventoryItems;
-export const charWeaponOnlyCategorizedInventoryItems = ommitedInventoryItems;
+export const charWeaponOnlyCategorizedInventoryItems = omittedInventoryItems;
 
 export const allInventoryItems = {
 	...credit,

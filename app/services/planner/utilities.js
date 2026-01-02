@@ -1,5 +1,6 @@
 import * as gameInventoryItem from '~/data/game/inventoryItem/gameInventoryItem';
 import * as gameCharacters from '~/data/game/gameCharacter';
+import { ITEM_IDS } from '~/data/game/constants/itemIDs';
 
 export const getLevelRangeDiff = (arrayData, currentLevel, targetLevel) => {
 	// index of currentLevel
@@ -39,7 +40,7 @@ export const getMaterialsFromLevelListStatList = (
 		for (let level of statsToFarm[stat]) {
 			for (let materialType in level.materials) {
 				// inventory exp and credit (not named materials)
-				if (['weap_exp', 'char_exp', 'shell_credit'].includes(materialType)) {
+				if ([ITEM_IDS.Ref_WEAP_EXP, ITEM_IDS.Ref_CHAR_EXP, ITEM_IDS.SHELL_CREDIT].includes(materialType)) {
 					materials[materialType] =
 						(materials[materialType] ?? 0) +
 						(level.materials?.[materialType] ?? 0);
