@@ -1,5 +1,5 @@
-import { ITEM_FAMILIES } from "@/data/game/constants/itemFamilies";
 import { ITEM_IDS } from "@/data/game/constants/itemIDs";
+import { MATERIAL_CATEGORIES } from "@/data/game/constants/materialCategories";
 
 const CHAR_EXP = 'char_exp';
 
@@ -355,7 +355,6 @@ export const tieredPassiveSkills = {
 import { CHARACTER_IDS } from '@/data/game/constants/characterIDs';
 
 import gameCharacterRawData from '@/data/game/raw/character.json';
-import { MATERIAL_CATEGORIES } from "./constants/materialCategories";
 
 export const characters = gameCharacterRawData;
 
