@@ -899,9 +899,9 @@
     "tiered_enemy_drop_weapon_skill_material": "exoswarm_core",
     "tiered_forgery_weapon_skill_material": "string"
   },
-  "everbright_poletar": {
+  "everbright_polestar": {
     "game_id": 21020076,
-    "display_name": "Everbright Poletar",
+    "display_name": "Everbright Polestar",
     "rarity": 5,
     "weapon_type": "sword",
     "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21020076_UI.webp",
