@@ -907,5 +907,14 @@
     "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21020076_UI.webp",
     "tiered_enemy_drop_weapon_skill_material": "mech_core",
     "tiered_forgery_weapon_skill_material": "polarizer"
+  },
+  "daybreakers_spine": {
+    "game_id": 21040056,
+    "display_name": "Daybreaker's Spine",
+    "rarity": 5,
+    "weapon_type": "gauntlets",
+    "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon_21040056_UI.webp",
+    "tiered_enemy_drop_weapon_skill_material": "mech_core",
+    "tiered_forgery_weapon_skill_material": "waveworn_shard"
   }
 }
