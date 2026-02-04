@@ -49,6 +49,7 @@ export const WEAPON_IDS = Object.freeze({
     COMET_FLARE: 'comet_flare',
     COMMANDO_OF_CONVICTION: 'commando_of_conviction',
     DAUNTLESS_EVERNIGHT: 'dauntless_evernight',
+    DAYBREAKERS_SPINE: 'daybreakers_spine',
     DISCORD: 'discord',
     ENDLESS_COLLAPSE: 'endless_collapse',
     EVERBRIGHT_POLESTAR: 'everbright_polestar',
