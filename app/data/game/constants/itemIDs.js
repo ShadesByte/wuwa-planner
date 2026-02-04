@@ -168,6 +168,7 @@ export const ITEM_IDS = Object.freeze({
     GEMINI_SPORE: 'gemini_spore',
     ARITHMETIC_SHELL: 'arithmetic_shell',
     MOSS_AMBER: 'moss_amber',
+    EDELSCHNEE: 'edelschnee',
 
     // pseudo items (for logic only)
     Ref_CHAR_EXP: 'char_exp',

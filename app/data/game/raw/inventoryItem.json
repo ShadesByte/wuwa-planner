@@ -509,6 +509,11 @@
       "game_id": 42601420,
       "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconC/T_IconC_072_UI.webp",
       "label": "Moss Amber"
+    },
+    "edelschnee": {
+      "game_id": 42601430,
+      "icon": "https://api.hakush.in/ww/UI/UIResources/Common/Image/IconC/T_IconC_074_UI.webp",
+      "label": "Edelschnee"
     }
   },
   "resonator_exp_material": {
