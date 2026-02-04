@@ -1076,5 +1076,27 @@
       { "stat": "atk", "value": 0.042 },
       { "stat": "crit_rate", "value": 0.028 }
     ]
+  },
+  "luuk_herssen": {
+    "game_id": 1510,
+    "display_name": "Luuk Herssen",
+    "weapon": "gauntlets",
+    "icon": "",
+    "rarity": 5,
+    "tiered_enemy_drop_weapon_skill_material": "exoswarm_pendant",
+    "boss_ascension_material": "suncoveters_reach",
+    "overworld_resource_ascension_material": "edelschnee",
+    "weekly_boss_skill_upgrade_material": "gold_in_memory",
+    "tiered_forgery_weapon_skill_material": "waveworn_shard",
+    "bonus_stats": [
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "crit_rate", "value": 0.028 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "crit_rate", "value": 0.028 }
+    ]
   }
 }
