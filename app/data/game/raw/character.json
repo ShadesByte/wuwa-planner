@@ -1054,5 +1054,27 @@
       { "stat": "def", "value": 0.0532 },
       { "stat": "healing_bonus", "value": 0.042 }
     ]
+  },
+  "aemeath": {
+    "game_id": 1210,
+    "display_name": "Aemeath",
+    "weapon": "sword",
+    "icon": "https://raw.githubusercontent.com/ryanbenson/wuthering-waves-assets/refs/heads/master/images/Aemeath.png",
+    "rarity": 5,
+    "tiered_enemy_drop_weapon_skill_material": "exoswarm_core",
+    "boss_ascension_material": "our_choice",
+    "overworld_resource_ascension_material": "moss_amber",
+    "weekly_boss_skill_upgrade_material": "gold_in_memory",
+    "tiered_forgery_weapon_skill_material": "polarizer",
+    "bonus_stats": [
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "atk", "value": 0.018 },
+      { "stat": "crit_rate", "value": 0.012 },
+      { "stat": "crit_rate", "value": 0.028 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "atk", "value": 0.042 },
+      { "stat": "crit_rate", "value": 0.028 }
+    ]
   }
 }
