@@ -128,6 +128,7 @@ export const ITEM_IDS = Object.freeze({
     ABYSSAL_HUSK: 'abyssal_husk',
     SUNCOVETERS_REACH: 'suncoveters_reach',
     BURNING_JUDGMENT: 'burning_judgment',
+    OUR_CHOICE: 'our_choice',
 
     // skill upgrade materials
     MONUMENT_BELL: 'monument_bell',
@@ -138,6 +139,7 @@ export const ITEM_IDS = Object.freeze({
     THE_NETHERWORLDS_STARE: 'the_netherworlds_stare',
     WHEN_IRISES_BLOOM: 'when_irises_bloom',
     CURSE_OF_THE_ABYSS: 'curse_of_the_abyss',
+    GOLD_IN_MEMORY: 'gold_in_memory',
 
     // ascension materials
     IRIS: 'iris',
@@ -165,6 +167,7 @@ export const ITEM_IDS = Object.freeze({
     RIMEWISP: 'rimewisp',
     GEMINI_SPORE: 'gemini_spore',
     ARITHMETIC_SHELL: 'arithmetic_shell',
+    MOSS_AMBER: 'moss_amber',
 
     // pseudo items (for logic only)
     Ref_CHAR_EXP: 'char_exp',
