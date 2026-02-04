@@ -51,6 +51,7 @@ export const WEAPON_IDS = Object.freeze({
     DAUNTLESS_EVERNIGHT: 'dauntless_evernight',
     DISCORD: 'discord',
     ENDLESS_COLLAPSE: 'endless_collapse',
+    EVERBRIGHT_POLESTAR: 'everbright_poletar',
     FABLES_OF_WISDOM: 'fables_of_wisdom',
     FEATHER_EDGE: 'feather_edge',
     FUSION_ACCRETION: 'fusion_accretion',
